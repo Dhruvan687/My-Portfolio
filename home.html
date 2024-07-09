@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- -----navbar----- -->
+
+    <nav class="Main-Nav">
+      <div class="Nav-Wrapper">
+        <div class="logo">
+          <img src="assets/images/logo.png" alt="">
+        </div>
+        <input type="checkbox" name="nav-slide" id="button-menu"></input>
+        <input type="checkbox" name="nav-slide" id="button-menu"></input>
+        <ul class="Nav-Links">
+          <label
+            for="button-menu"
+            class="toggle-button-nav button-cancel "
+          >
+            <i class="fi fi-rr-cross"></i>
+          </label>
+          <li>
+            <a href="/">INTERNSHIP</a>
+          </li>
+          <li>
+            <a href="/products" class="for-desktop">
+              courses
+            </a>
+            <input type="checkbox" id="showMenu"></input>
+            <label for="showMenu" class="for-mobile" >
+              courses
+            </label>
+            <div class="Mega-Box">
+              <div class="Mega-Box-Content">
+                <div class="Content-Row">
+                  <img src="assets/images/istockphoto-1166954025-170667a-removebg-preview.png" />
+                </div>
+                <div class="Content-Row">
+                  <header>PROGRAMMING</header>
+
+                  <ul class="Mega-Links">
+                    <li>
+                      <a href="#">C PROGRAMMING</a>
+                    </li>
+                    <li>
+                      <a href="#">C++ PROGRAMMING</a>
+                    </li>
+                    <li>
+                      <a href="#">JAVA PROGRAMMING</a>
+                    </li>
+                    <li>
+                      <a href="#">C# PROGRAMMING</a>
+                    </li>
+                    <li>
+                      <a href="#">PYTHON PROGRAMMING</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="Content-Row">
+                  <header>WEB DEVELOPMENT</header>
+                  <ul class="Mega-Links">
+                    <li>
+                      <a href="#">Website Design</a>
+                    </li>
+                    <li>
+                      <a href="#">WEB DEVELOPEMET  WITH DOTNET CORE</a>
+                    </li>
+                    <li>
+                      <a href="#">WEB DEVELOPMENT WITH DOTNET MVC</a>
+                    </li>
+                    <li>
+                      <a href="#">WEB DEVELOPMENT WITH PYTHON & DJANGO</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="Content-Row">
+                  <header>FOTNTEND DEVELOPEMENT</header>
+                  <ul class="Mega-Links">
+                    <li>
+                      <a href="#">FRONTEND NINJA (COMPLET FRONTEND DEVE)</a>
+                    </li>
+                    <li>
+                      <a href="#">HTML CSS MEDIQ QUERY</a>
+                    </li>
+                    <li>
+                      <a href="#">JAVASCRIPT  JQUERY</a>
+                    </li>
+                    <li>
+                      <a href="#">EXPERT IN JAVASCRIPT</a>
+                    </li>
+                    <li>
+                      <a href="#">REACT JS DEVELOPMENT</a>
+                    </li>
+                    <li>
+                      <a href="#">FRONT END WITH JS & REACT JS</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+              <a href="/">blog</a>
+            </li>
+          <li>
+            <a href='/contact-us'>Contact Us</a>
+          </li>
+          <li>
+              <a href="/">why us?</a>
+            </li>
+          <li>
+              
+            <a href="#" class="for-desktop">
+              free courses
+            </a>
+            <input type="checkbox" id="showDrop"></input>
+            <label for="showDrop" class="for-mobile">
+              free courses
+            </label>
+            <ul class="Drop-Down">
+              <li>
+              <a href='/about-us'>HTML CSS</a>
+              </li>
+              <li>
+                <a href="#">Programming fundamentals</a>
+              </li>
+              <li>
+                <a href="#">JQuery </a>
+              </li>
+              <li>
+                <a href="#">Responsive Design</a>
+              </li>
+            </ul>
+          </li>
+          
+          <!-- <li>
+            <a href="#">Login</a>
+          </li> -->
+          <!-- <button class="btn1">
+              LOGIN
+          </button> -->
+        </ul>
+        <label
+          for="button-menu"
+          class="toggle-button-nav button-menu "
+        >
+          <i class="fi fi-rr-align-justify"></i>
+        </label>
+      </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(31, 31, 36);">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav> -->
+
+    <!-- <div class="mp-b1">
+        <div class="mp-navbar">
+            <div class="mp-navbar-logo">
+                <img src="assets/images/logo.png" alt="">
+            </div>
+            <div class="mp-navbar-options">
+                <h3>HOME</h3>
+                <h3>FEATURES</h3>
+                <h3>PORTFOLIO</h3>
+                <h3>RESUME</h3>
+                <h3>CLIENTS</h3>
+                <h3>PRICING</h3>
+                <h3>BLOG</h3>
+                <h3>CONTACT</h3>
+                        // ----------button----------- 
+                
+                    <button class="mp-navbar-btn">BUY NOW</button>
+            </div>
+        </div>
+    </div> -->
+    <div class="mp-b2">
+      <div class="mp-b2-contaiar">
+        <div class="mp-b2-left">
+          <p>WELCOME TO MY WORLD</p>
+          <h1>Hi, I’m <span>Dhruvan Gandhi</span></h1>
+          <p>
+            I use animation as a third dimension by which to simplify
+            experiences and kuiding thro each and every interaction. I’m not
+            adding motion just to spruce things up, but doing it in ways that.
+          </p>
+
+          <!-- ---------social media--------  -->
+          <h2><span> Find Me On </span></h2>
+          <div class="mp-b2-logo">
+            <div class="wrapper">
+              <div class="button">
+                <div class="icon">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <span>Facebook</span>
+              </div>
+              <div class="button">
+                <div class="icon">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <span>Twitter</span>
+              </div>
+              <div class="button">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                </div>
+                <span>Instagram</span>
+              </div>
+              <div class="button">
+                <div class="icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <span>Github</span>
+              </div>
+              <div class="button">
+                <div class="icon">
+                  <i class="fab fa-youtube"></i>
+                </div>
+                <span>YouTube</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mp-b2-right">
+          <div class="mp-b2-img-shelf">
+            <img src="assets/images/Illustrator-Vector-Illustration-1-removebg-preview.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+                
+    <div class="mp-b3">
+      <div class="mp-b3-features">
+        <div class="container">
+        <div class="mp-b3-heading">
+          <p>FEATURES</p>
+          <h1>What I Do</h1>
+        </div>
+      </div>
+        <div class="mp-b3-card-container">
+          <div class="mp-b3-card">
+            <img src="assets/icons/icon3.png" alt="" />
+            <h3>Business Stratagy</h3>
+            <p>
+              I throw myself down among the tall grass by the stream as I lie
+              close to the earth.
+            </p>
+            <div class="arrow">
+              <img
+                src="assets/icons/icon7.png"
+                alt=""
+                style="height: 30px; width: 30px"
+              />
+            </div>
+          </div>
+          <div class="mp-b3-card">
+            <img src="assets/icons/icon5.png" alt="" />
+
+            <h3>App Development</h3>
+            <p>
+              It uses a dictionary of over 200 Latin words, combined with a
+              handful of model sentence.
+            </p>
+            <div class="arrow">
+              <img
+                src="assets/icons/icon7.png"
+                alt=""
+                style="height: 30px; width: 30px"
+              />
+            </div>
+          </div>
+          <div class="mp-b3-card">
+            <img src="assets/icons/icon4.png" alt="" />
+
+            <h3>App Developmnet</h3>
+            <p>
+              I throw myself down among the tall grass by the stream as I lie
+              close to the earth.
+            </p>
+            <div class="arrow">
+              <img
+                src="assets/icons/icon7.png"
+                alt=""
+                style="height: 30px; width: 30px"
+              />
+            </div>
+          </div>
+          <div class="mp-b3-card">
+            <img src="assets/icons/icon6.png" alt="" />
+
+            <h3>mobile App</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority.
+            </p>
+            <div class="arrow">
+              <img
+                src="assets/icons/icon7.png"
+                alt=""
+                style="height: 30px; width: 30px"
+              />
+            </div>
+          </div>
+          <div class="mp-b3-card">
+            <img src="assets/icons/icon2.png" alt="" />
+
+            <h3>CEO Marketing</h3>
+            <p>
+              always free from repetition, injected humour, or
+              non-characteristic words etc.
+            </p>
+            <div class="arrow">
+              <img
+                src="assets/icons/icon7.png"
+                alt=""
+                style="height: 30px; width: 30px"
+              />
+            </div>
+          </div>
+          <div class="mp-b3-card">
+            <img src="assets/icons/icon1.png" alt="" />
+            <h3>personal portfolio</h3>
+            <p>
+              It uses a dictionary of over 200 Latin words, combined with a
+              handful of model sentence.
+            </p>
+            <div class="arrow">
+              <img
+                src="assets/icons/icon7.png"
+                alt=""
+                style="height: 30px; width: 30px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mp-b4">
+      <div class="mp-b4-heading">
+        <div class="container">
+          <h4>
+            VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
+          </h4>
+          <h2>
+            My portfolio
+          </h2>
+        </div>
+      </div>
+    <div class="card-section">
+            <div class="Bcard">
+              <div class="cover-img">
+                <img src="assets/images/portfolio-01.jpg" alt="">
+              </div>
+              <div class="info">
+                  <div class="info-title">
+                    <div class="info-title-name">
+                      <h4>DEVELOPNMENT</h4>
+                    </div>
+                    <div class="like">
+                      <i class="fi fi-sr-heart"></i>
+                      <div class="like-text"><p>like</p></div>
+                      
+                    </div>
+                    </div>
+                    <div class="info-detail">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione neque quaerat voluptatum! Esse, sapiente accusantium.</p>
+                    </div>
+              </div>
+            </div>
+            <div class="Bcard">
+              <div class="cover-img">
+                <img src="assets/images/portfolio-02.jpg" alt="">
+              </div>
+              <div class="info">
+                <div class="info-title">
+                  <div class="info-title-name">
+                    <h4>DEVELOPNMENT</h4>
+                  </div>
+                  <div class="like">
+                    <i class="fi fi-sr-heart"></i>
+                    <div class="like-text"><p>like</p></div>
+                    
+                  </div>
+                  </div>
+                  <div class="info-detail">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione neque quaerat voluptatum! Esse, sapiente accusantium.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="Bcard">
+              <div class="cover-img">
+                <img src="assets/images/portfolio-03.jpg" alt="">
+              </div>
+              <div class="info">
+                <div class="info-title">
+                  <div class="info-title-name">
+                    <h4>DEVELOPNMENT</h4>
+                  </div>
+                  <div class="like">
+                    <i class="fi fi-sr-heart"></i>
+                    <div class="like-text"><p>like</p></div>
+                    
+                  </div>
+                  </div>
+                  <div class="info-detail">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione neque quaerat voluptatum! Esse, sapiente accusantium.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="Bcard">
+              <div class="cover-img">
+                <img src="assets/images/portfolio-04.jpg" alt="">
+              </div>
+              <div class="info">
+                <div class="info-title">
+                  <div class="info-title-name">
+                    <h4>DEVELOPNMENT</h4>
+                  </div>
+                  <div class="like">
+                    <i class="fi fi-sr-heart"></i>
+                    <div class="like-text"><p>like</p></div>
+                    
+                  </div>
+                  </div>
+                  <div class="info-detail">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione neque quaerat voluptatum! Esse, sapiente accusantium.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="Bcard">
+              <div class="cover-img">
+                <img src="assets/images/portfolio-05.jpg" alt="">
+              </div>
+              <div class="info">
+                <div class="info-title">
+                  <div class="info-title-name">
+                    <h4>DEVELOPNMENT</h4>
+                  </div>
+                  <div class="like">
+                    <i class="fi fi-sr-heart"></i>
+                    <div class="like-text"><p>like</p></div>
+                    
+                  </div>
+                  </div>
+                  <div class="info-detail">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione neque quaerat voluptatum! Esse, sapiente accusantium.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="Bcard">
+              <div class="cover-img">
+                <img src="assets/images/portfolio-06.jpg" alt="">
+              </div>
+              <div class="info">
+                <div class="info-title">
+                  <div class="info-title-name">
+                    <h4>DEVELOPNMENT</h4>
+                  </div>
+                  <div class="like">
+                    <i class="fi fi-sr-heart"></i>
+                    <div class="like-text"><p>like</p></div>
+                    
+                  </div>
+                  </div>
+                  <div class="info-detail">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione neque quaerat voluptatum! Esse, sapiente accusantium.</p>
+                  </div>
+              </div>
+            </div>
+    </div>
+  </div>
+
+  <div class="mp-b5">
+    <div class="mp-b5-heading">
+      <div class="container">
+        <h4>
+          CONTACT
+        </h4>
+        <h2>
+          Contact With Me
+        </h2>
+      </div>
+    </div>
+    <div class="mp-b5-form">
+    
+        <div class="mp-b5-left">
+          <div class="mp-b5-left-img">
+            <img src="assets/images/contact1.png" alt="">
+          </div>
+          <div class="mp-b5-left-name">
+            <h4>Dhruvan Gandhi</h4>
+            <p>I am available for freelance work. Connect with me via Call or E-mail.</p>
+            <p>PHONE : <span>+91-9601409665</span></p>
+            <p>EMAIL : <span> dhruvangandhi687@gmail.com</span></p>
+          </div>
+        </div>
+    <div class="mp-b5-right">
+
+      <form>
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+
+      </div>
+    </div>
+      
+      
+    </div>
+    
+<!-- -----footer----- -->
+
+<div class="footer">
+  <div class="container">
+      <div class="pos">
+          <div class="col">
+          
+              <h3>company</h3>
+              <ul>
+                 <p>
+                  Working to bring significant changes in online-based learning by 
+                      doing extensive research for course curriculum preparation, 
+                      student engagements, and looking forward to the flexible education!
+                 </p> 
+                  <div class="links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/?next=%2F"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </ul>
+          </div>
+
+          <div class="col">
+              <h3>EXPLORE</h3>
+              <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Our services</a></li>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">affiliate program</a></li>
+                  
+              </ul>
+          </div>
+
+          <div class="col">
+              <h3>RESOURCES</h3>
+              <ul>
+                  <li><a href="#"></a></li>
+                  <li><a href="#">Student Success
+                      </a></li>
+                  <li><a href="#">Scholarships
+                      </a></li>
+                  <li><a href="#">For Business
+                      </a></li>
+                  <li><a href="#">Go Premium
+                      Team Plans</a></li>
+                  <li><a href="#">Team Plans</a></li>
+              </ul>
+          </div>
+
+          <div class="col">
+              <h3>ADDRESS</h3>
+              
+              <ul>
+                  <li></i><a href="#">About us</a></li>
+                  <li><a href="#">Our services</a></li>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">affiliate program</a></li>
+                  
+              </ul>
+
+
+          </div>
+
+      </div>
+  </div>
+</div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
